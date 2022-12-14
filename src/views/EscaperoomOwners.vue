@@ -90,22 +90,22 @@
 				<div class="escaplly-main__details">
 					<h3>Our Clients, We Help To Grow Their Business</h3>
 					<div class="listed-company-logo">
-						<div class="container">
+						<div class="client-img">
 							<img src="@/assets/img/alin.png" alt="" />
 						</div>
-						<div class="container">
+						<div class="client-img">
 							<img src="@/assets/img/riddle.png" alt="" />
 						</div>
-						<div class="container">
+						<div class="client-img">
 							<img src="@/assets/img/home_town.png" alt="" />
 						</div>
-						<div class="container">
+						<div class="client-img">
 							<img src="@/assets/img/wayof.png" alt="" />
 						</div>
-						<div class="container">
+						<div class="client-img">
 							<img src="@/assets/img/claverfox.png" alt="" />
 						</div>
-						<div class="container">
+						<div class="client-img">
 							<img src="@/assets/img/inferno.png" alt="" />
 						</div>
 					</div>
@@ -117,7 +117,7 @@
 		</section>
 		<section class="escaperoom-owner__become-partner g-section--structure">
 			<div class="become-partner__head">
-				<div class="head-section--style">
+				<div class="head-section--style body-container">
 					<h3>How To Become Partner With us!</h3>
 					<p>Lorem Ipsum is simply dummy text of the text a Lorem Ipsum is simply dummy text simply text for dummy only.</p>
 				</div>
@@ -158,8 +158,8 @@
 				</div>
 				<div class="become-partner-main__step">
 					<div class="step-text">
-						<h3>STEP 1</h3>
-						<h5>Fill Out Partner Request From</h5>
+						<h3>STEP 3</h3>
+						<h5>Start Reciving Booking</h5>
 						<p>
 							Lorem Ipsum is simply dummy text of the text a Lorem Ipsum is simply dummy text of the text a lpsum simply text for dummy only. simply
 							dummy text of the text a lpsum simply text for dummy only..
@@ -169,10 +169,13 @@
 						</div>
 					</div>
 					<div class="step-img">
-						<img src="@/assets/img/partner_form.png" alt="" />
+						<img src="@/assets/img/booking.png" alt="" />
 					</div>
 				</div>
 			</div>
+		</section>
+		<section class="escapelly-frequently-asked g-section--structure">
+			<FrequentlyAskedQuestion />
 		</section>
 	</div>
 </template>
